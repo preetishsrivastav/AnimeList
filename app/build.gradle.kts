@@ -63,7 +63,7 @@ dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.activity.compose)
 
-    // MARK: - Lifecycle
+    // Lifecycle
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.lifecycle.runtime.compose)
@@ -72,11 +72,11 @@ dependencies {
 
     implementation(libs.androidx.work.runtime.ktx)
 
-    // MARK: - Navigation
+    // Navigation
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.navigation.compose)
 
-    // MARK: - Moshi
+    //  Moshi
     implementation(libs.squareup.retrofit)
     implementation(libs.retrofit2.converter.moshi)
     implementation(libs.squareup.moshi.kotlin)
@@ -93,14 +93,14 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.kotlinx.serialization.json)
 
-    // MARK: - HTTP Client + Utilities
+    //  HTTP Client + Utilities
     implementation(libs.squareup.retrofit)
     implementation(libs.converter.scalars)
     implementation(platform(libs.okhttp.bom))
     implementation(libs.okhttp)
     implementation(libs.okhttp.logging.interceptor)
 
-    // MARK: - Hilt (dagger/hilt)
+    // Hilt (dagger/hilt)
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
     kapt(libs.hilt.android.compiler)
